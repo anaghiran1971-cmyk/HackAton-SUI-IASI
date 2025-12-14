@@ -1,0 +1,5 @@
+[
+  { "id": "contract_necunoscut", "descriere": "Interacțiune cu contract necunoscut", "puncte": 25 },
+  { "id": "gaz_mare", "descriere": "Consum de gaz neobișnuit", "puncte": 15 },
+  { "id": "ownership_capabilitati", "descriere": "Schimbări de ownership/capabilities", "puncte": 30 }
+]

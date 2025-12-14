@@ -1,0 +1,13 @@
+{
+  "name": "hackaton-copilot-sui",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n SERVER,CLIENT -c green,cyan \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "npm --prefix server-online run dev",
+    "dev:client": "npm --prefix client-web run dev",
+    "start": "npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
